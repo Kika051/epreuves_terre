@@ -1,6 +1,8 @@
 // Initier un compteur à zéro
 function compterCaracteres(chaine) {
   var compteur = 0;
+
+  // créer une condition qui prendra notre argument voulu
   if (process.argv.length !== 3) {
     console.log("Erreur.");
   } else {
@@ -13,7 +15,7 @@ function compterCaracteres(chaine) {
   }
 }
 
-// Désigner quel mot dans notre terminal nous voulons compter
+// Désigner l'argument dans notre terminal nous voulons compter
 var maChaine = process.argv[2];
 var nombreDeCaracteres = compterCaracteres(maChaine);
 
