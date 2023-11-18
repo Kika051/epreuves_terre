@@ -2,7 +2,7 @@ function estPremier() {
   // Récupérer le nombre à partir des arguments de la ligne de commande
   var nombre = process.argv[2];
 
-  // Vérifier si le nombre est inférieur ou égal à 1, auquel cas il n'est pas premier
+  // Vérifier si le nombre est inférieur ou égal à 1
   if (nombre <= 1) {
     return "ce n'est pas un nombre premier";
   }
