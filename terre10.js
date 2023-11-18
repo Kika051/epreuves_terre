@@ -7,7 +7,7 @@ function estPremier() {
     return "ce n'est pas un nombre premier";
   }
 
-  // Vérifier les diviseurs potentiels jusqu'à la racine carrée du nombre
+  // Vérifier les diviseurs potentiels jusqu'à la racine carrée du nombre avec une boucle
   for (let i = 2; i <= Math.sqrt(nombre); i++) {
     if (nombre % i === 0) {
       // Si le nombre est divisible par un autre nombre que 1 et lui-même, il n'est pas premier
