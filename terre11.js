@@ -18,7 +18,7 @@ function convertirHeure(heure24h) {
   return `${heures12h}:${minutes}${indicatif}`;
 }
 
-// Récupérer l'heure en ligne de commande
+// Récupérer l'argument
 const heure24h = process.argv[2];
 
 // Vérifier si l'argument est fourni
